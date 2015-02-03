@@ -1,4 +1,4 @@
-#Docker container for hmmsearch
+#Docker container for hmmemit in hmmer
 
 FROM debian
 
