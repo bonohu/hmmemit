@@ -1,5 +1,5 @@
 # hmmemit
 
-Run hmmemit(sample sequence(s) from a profile HMM).
+Run hmmemit(sample sequence(s) from a profile HMM) in HMMER package.
 
- Usage: docker run -it bonohu/hmmemit
+ Usage: docker run -it bonohu/hmmemit  

@@ -1,7 +1,6 @@
 #Docker container for hmmemit in hmmer
 
 FROM debian
-
 MAINTAINER Hidemasa Bono, bonohu@gmail.com
 
 # File add
@@ -12,4 +11,3 @@ RUN apt-get update && \
     apt-get install -y hmmer &&\
     rm -rf /var/lib/apt/lists/*
 CMD ["hmmemit", "Sod_Cu.hmm"]
-
